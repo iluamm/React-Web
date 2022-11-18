@@ -50,7 +50,17 @@ export const NavBar = () =>{
                             <Nav.Link as={Link} to="/Spline">Spline interpolation</Nav.Link>
                         </Dropdown.Menu>
                     </Dropdown>
-                    <Nav.Link as={Link} to="/Regression">Regression</Nav.Link> 
+                    <Dropdown className="Dropdownbtn">
+                        <Dropdown.Toggle variant="dark" id="dropdown-basic">
+                            Regression
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu variant="dark">
+                            <Nav.Link as={Link} to="/Linear">Linear Regression</Nav.Link>
+                            <Nav.Link as={Link} to="/Polynomial">Polynomial Regression</Nav.Link>
+                            <Nav.Link as={Link} to="/Multiple">Multiple Linear Regression</Nav.Link>
+                        </Dropdown.Menu>
+                    </Dropdown>
+                    {/* <Nav.Link as={Link} to="/Regression">Regression</Nav.Link>  */}
                 </Nav>
         </Container>
     </Navbar>

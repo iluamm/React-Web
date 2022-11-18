@@ -14,7 +14,9 @@ import GaussSedial from './LinearAlgebraicEquation/GaussSedial';
 import NewtonDivided from './Interpolation/NewtonDivided';
 import Lagrange from './Interpolation/Lagrange';
 import Spline from './Interpolation/Spline';
-import Regression from './Regression';
+import Linear from './Regression/Linear';
+import Polynomial from './Regression/Polynomial';
+import Multiple from './Regression/Multiple';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 
@@ -39,7 +41,9 @@ function App() {
         <Route path="/NewtonDivided" element={<NewtonDivided/>} />
         <Route path="/Lagrange" element={<Lagrange/>} />
         <Route path="/Spline" element={<Spline/>} />
-        <Route path="/Regression" element={<Regression/>} />
+        <Route path="/Linear" element={<Linear/>} />
+        <Route path="/Polynomial" element={<Polynomial/>} />
+        <Route path="/Multiple" element={<Multiple/>} />
       </Routes>
       </BrowserRouter>
     </div>

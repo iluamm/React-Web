@@ -1,9 +1,9 @@
 import { Button } from "react-bootstrap";
 import {React,Component} from "react";
 import Form from "react-bootstrap/Form";
-import './App.css';
+import '../App.css';
 
-class Regression extends Component {
+class Multiple extends Component {
     constructor(){
         super();
         console.log("constructor called");
@@ -19,7 +19,7 @@ class Regression extends Component {
     render() {
         return (
             <div>
-                <h1 class="header"><p/>Regression</h1>
+                <h1 class="header"><p/>Multiple Linear Regression</h1>
                 <Form>
                     <Form.Group className="mb-3">
                         <div>
@@ -35,4 +35,4 @@ class Regression extends Component {
         );
     }
 }
-export default Regression;
+export default Multiple;
