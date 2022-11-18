@@ -35,6 +35,7 @@ class NewtonDivided extends Component {
                 <Form>
                     <Form.Group className="mb-3">
                         <div style={{margin:"0px 0px 25px 0px"}}>
+                            <h4>ยังไม่เสร็จ HELP!!!</h4>
                             <h4>Enter Number</h4><p/>
                             <input id="inputsize" type="number" step="1" placeholder="data point" class="input-sizematrix" onChange={this.createtable}/>
                             <div id="tableinput"></div>
